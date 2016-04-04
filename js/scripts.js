@@ -1,5 +1,6 @@
+
 $(document).ready(function() {
-	$('.photoGallery').magnificPopup({
+	$('.gallerySection').magnificPopup({
 		delegate: 'a',
 		type: 'image',
 		gallery: {enabled:true},
@@ -8,3 +9,4 @@ $(document).ready(function() {
 		}
 	});
 })
+
